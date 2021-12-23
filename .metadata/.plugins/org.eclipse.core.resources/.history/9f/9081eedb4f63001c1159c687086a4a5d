@@ -1,0 +1,12 @@
+
+public class CriaConta {
+	public static void main(String[] args) {
+		Conta primeiraConta = new Conta();
+		primeiraConta.saldo = 200.00;
+		primeiraConta.agencia = 1000;
+		primeiraConta.numero = 00001;
+		primeiraConta.titular = "Daniel Silveira";
+		
+		System.out.println(primeiraConta.saldo);
+	}
+}
